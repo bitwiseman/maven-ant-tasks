@@ -131,7 +131,7 @@
   <properties>
     <currentReleaseVersion>2.1.3</currentReleaseVersion>
     <mavenVersion>2.2.1</mavenVersion>
-    <wagonVersion>1.0-beta-6</wagonVersion>
+    <wagonVersion>2.8</wagonVersion>
     <securityDispatcherVersion>1.3</securityDispatcherVersion>
     <maven.site.path>ant-tasks-archives/ant-tasks-LATEST</maven.site.path>
   </properties>
@@ -305,7 +305,7 @@
             <excludes>src/test/repo/it/ant-tasks/**/*.md5</excludes>
             <excludes>src/test/repo/it/ant-tasks/**/*.pom</excludes>
             <excludes>src/test/repo/it/ant-tasks/**/maven-metadata.xml</excludes>
-          </excludes>            
+          </excludes>
         </configuration>
         <executions>
           <execution>
@@ -315,7 +315,7 @@
             </goals>
           </execution>
         </executions>
-      </plugin>      
+      </plugin>
     </plugins>
   </build>
 
