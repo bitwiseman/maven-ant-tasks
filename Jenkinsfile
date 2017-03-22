@@ -4,7 +4,7 @@ pipeline {
     stage('Test') {
       steps {
         node(label: 'osx_mbp') {
-          sh 'echo "${test} ${test2}"'
+          sh 'echo "${test2} ${test3}"'
         }
         
         echo '${test2} + ${test3}'
