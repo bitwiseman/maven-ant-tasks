@@ -1,9 +1,12 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('Test') {
       steps {
-        echo '${test}, ${test2}, ${test3}'
+        node(label: 'osx_mbp') {
+          echo '${test}, ${test2}, ${test3}'
+        }
+        
       }
     }
   }
