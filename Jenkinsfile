@@ -1,13 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Test') {
+    stage('Build') {
       steps {
-        node(label: 'osx_mbp') {
-          sh 'echo "${test2} ${test3}"'
-        }
-        
-        echo '${test2} + ${test3}'
+        echo 'One Stage Build Pipeline'
       }
     }
   }
